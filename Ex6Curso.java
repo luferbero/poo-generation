@@ -63,7 +63,7 @@ public class Ex6Curso {
 	public void visualizar() {
 		NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
-		System.out.println("Curso:");
+		System.out.println("\nCurso:");
 		System.out.println(curso + " | Unidade: " + unidade + " | Duração: " + duracao + " | Valor: " + nf.format(valor)
 				+ " | Disponibilidade - " + disponibilidade);
 	}

@@ -63,7 +63,7 @@ public class Ex2Funcionario {
 	NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
 	public void visualizar() {
-		System.out.println(" Funcionário(a):");
+		System.out.println(" \nFuncionário(a):");
 		System.out.println(nome + ", " + cargo + " com salário de " + nf.format(salario) + ". Atuante no projeto: "
 				+ projetoAtual + " da unidade " + unidade);
 	}

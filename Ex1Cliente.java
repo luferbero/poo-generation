@@ -58,9 +58,9 @@ public class Ex1Cliente {
 	}
 
 	public void visualizar() {
-		System.out.println("Dados do cliente:");
+		System.out.println("\nDados do cliente:");
 		System.out.println(nomeCliente + " com " + idade + " anos, do sexo " + sexo + " residente em " + endereco
-				+ ". Pofissional " + profissao);
+				+ ". Profissional " + profissao);
 
 	}
 

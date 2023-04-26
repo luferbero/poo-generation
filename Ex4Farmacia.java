@@ -63,7 +63,7 @@ public class Ex4Farmacia {
 	public void visualizar() {
 		NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
-		System.out.println("Produto: ");
+		System.out.println("\nProduto: ");
 		System.out.println("Remédio: " + nome + " | " + "Função: " + funcao + " | " + "Genérico?: " + generico);
 		System.out.println("Unidade disponível: " + uniDisponivel + " | " + "Valor: " + nf.format(valor));
 	}

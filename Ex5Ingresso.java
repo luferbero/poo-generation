@@ -63,7 +63,7 @@ public class Ex5Ingresso {
 	public void visualizar() {
 		NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
-		System.out.println("Ingresso");
+		System.out.println("\nIngresso");
 		System.out.println("Show: " + show);
 		System.out.println("Data: " + data);
 		System.out.println("Valor: " + nf.format(valor));

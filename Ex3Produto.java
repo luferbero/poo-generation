@@ -63,7 +63,7 @@ public class Ex3Produto {
 	public void visualizar() {
 		NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
-		System.out.println("Jogos:");
+		System.out.println("\nJogos:");
 		System.out.println("Jogo: " + nomeJogo + " da " + marca + " lançado em " + anoLancamento
 				+ ". Disponível na unidade: " + uniDisponivel + ". Valor: " + nf.format(preco));
 
